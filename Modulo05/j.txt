@@ -1,0 +1,15 @@
+Ontem eu continuei na ativade da normalização dos scores
+Hoje tambem,consegui instalar o mongoDB ta faltando mesmo so conectar, fazer
+o teste e alterar o dashboard para refletir a mudança. Tava com alguns problemas
+mas o Jovane e o Rafa ajudaram.
+
+
+Yesterday I continued the activity of normalizing the scores
+Today too, I was able to install mongoDB, it's just missing to connect, 
+do the test and change the dashboard to reflect the change. 
+I was having some problems but Jovane and Rafa helped.
+
+"insert column"
+
+array comprehension
+1989000000000000000000000000.

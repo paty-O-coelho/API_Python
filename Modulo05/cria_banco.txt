@@ -1,0 +1,23 @@
+import sqlite3
+
+#arquivo responsavel por criar e conectar com o banco
+connection = sqlite3.connect('banco.db') #crio uma variavel para estanciar uma conecçao com o banco de dados
+cursor = connection.cursor() #a variavel curso tem a mesma função que o curso do mouse, apontar algo
+
+cria_tabela = "CREATE TABLE IF NOT EXISTS hoteis (hotel_id text PRIMARY KEY,\
+ nome text, estrelas real, diaria real, cidade text)"
+
+ #crio a tabela hoteis, se ela ainda nao existir, defino os nomes das tabelas e seus tipos (defino tamebm quem sera a chave primaria)
+
+cria_hotel = "INSERT INTO hoteis VALUES ('alpha', 'Alpha Hotel', 4.3, 345.30, 'Rio de Janeiro')"
+ #dou um insert into
+
+
+#excuto as minhas variaveis
+cursor.execute(cria_tabela)
+cursor.execute(cria_hotel)
+
+
+#ao final, devo dar o commit e o close
+connection.commit()
+connection.close()
